@@ -74,10 +74,10 @@ public class Test {
         int intValue = 5;
         double doubleValue = 5.01;
         System.out.println("intValue + doubleValue : " + (intValue + doubleValue));
+        System.out.println("intValue * doubleValue : " + (intValue * doubleValue));
 
         int intValue1 = 10;
         double doubleValue1 = 10.00;
-        System.out.println("intValue * doubleValue : " + (intValue * doubleValue));
         System.out.println("intValue1 == doubleValue1 : " + (intValue1 == doubleValue1));
     }
 }

@@ -4,7 +4,7 @@ import static java.lang.Integer.*;
 
 public class Test {
 
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         int a = 20;
         int b = 40;
         int c = 50;
@@ -56,9 +56,39 @@ public class Test {
         int e = 10;
         int f;
         f = (e == 1) ? 20 : 30;
-        System.out.println( "Значение b: " +  f );
+        System.out.println( "Значение f: " +  f );
         f = (e == 10) ? 20 : 30;
-        System.out.println( "Значение b: " + f );
+        System.out.println( "Значение f: " + f );
+
+        // if-else
+        if (e==10) {
+            f=20;
+        } else {
+            f=30;
+        };
+        System.out.println( "Значение f: " + f );
+
+        // switchCase
+        char bestCar = 'A';
+        switch(bestCar)
+        {
+            case 'A' : {
+                System.out.println("Audi");
+                break;
+            }
+            case 'B' : {
+                System.out.println("BMW");
+                break;
+            }
+            case 'C' : {
+                System.out.println("Mercedes-Benz");
+                break;
+            }
+            case 'D' : {
+                System.out.println("VW");
+                break;
+            }
+        }
 
         // Оператор instanceof
         String name = "Олег";

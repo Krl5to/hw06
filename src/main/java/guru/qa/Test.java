@@ -35,5 +35,19 @@ public class Test {
         System.out.println("a && b = " + (ba&&bb));
         System.out.println("a || b = " + (ba||bb) );
         System.out.println("!(a && b) = " + !(ba && bb));
+
+        // Операторы присваивания
+        c = a + b;
+        System.out.println("c = a + b = " + c );
+        c = c + a; // c += a;
+        System.out.println("c = c + a = " + c );
+        c = c - a; // c -= a;
+        System.out.println("c = c - a = " + c );
+        c = c * a; // c *= a;
+        System.out.println("c = c * a = " + c );
+        c = c / a; // c /= a ;
+        System.out.println("c = c / a = " + c );
+        c = c % a; // c %= a ;
+        System.out.println("c = c % a = " + c );
     }
 }

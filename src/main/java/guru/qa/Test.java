@@ -9,11 +9,6 @@ public class Test {
         int b = 40;
         int c = 50;
         int d = 50;
-        boolean ba = true;
-        boolean bb = false;
-        int e = 10;
-        int f;
-        String name = "Олег";
 
         // Арифметические операторы
         System.out.println("a + b = " + (a + b));
@@ -37,6 +32,8 @@ public class Test {
         System.out.println("b <= a = " + (b <= a) );
 
         // Логические операторы
+        boolean ba = true;
+        boolean bb = false;
         System.out.println("a && b = " + (ba&&bb));
         System.out.println("a || b = " + (ba||bb) );
         System.out.println("!(a && b) = " + !(ba && bb));
@@ -56,12 +53,15 @@ public class Test {
         System.out.println("c = c % a = " + c );
 
         // Тернарный оператор
+        int e = 10;
+        int f;
         f = (e == 1) ? 20 : 30;
         System.out.println( "Значение b: " +  f );
         f = (e == 10) ? 20 : 30;
         System.out.println( "Значение b: " + f );
 
         // Оператор instanceof
+        String name = "Олег";
         // Вернётся true, поскольку тип String
         boolean result = name instanceof String;
         System.out.println( result );
@@ -73,10 +73,10 @@ public class Test {
         // 2) попробовать вычисления комбинаций типов данных (int и double)
         int intValue = 5;
         double doubleValue = 5.01;
+        System.out.println("intValue + doubleValue : " + (intValue + doubleValue));
+
         int intValue1 = 10;
         double doubleValue1 = 10.00;
-
-        System.out.println("intValue + doubleValue : " + (intValue + doubleValue));
         System.out.println("intValue * doubleValue : " + (intValue * doubleValue));
         System.out.println("intValue1 == doubleValue1 : " + (intValue1 == doubleValue1));
     }

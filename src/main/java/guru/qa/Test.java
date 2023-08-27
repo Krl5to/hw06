@@ -2,7 +2,7 @@ package guru.qa;
 
 public class Test {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int a = 20;
         int b = 40;
         int c = 50;
@@ -20,5 +20,13 @@ public class Test {
         System.out.println("--b   = " +  (--b));
         System.out.println("d++   = " +  (d++));
         System.out.println("++d   = " +  (++d));
+
+        // Операторы сравнения
+        System.out.println("a == b = " + (a == b) );
+        System.out.println("a != b = " + (a != b) );
+        System.out.println("a > b = " + (a > b) );
+        System.out.println("a < b = " + (a < b) );
+        System.out.println("b >= a = " + (b >= a) );
+        System.out.println("b <= a = " + (b <= a) );
     }
 }

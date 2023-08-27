@@ -7,6 +7,8 @@ public class Test {
         int b = 40;
         int c = 50;
         int d = 50;
+        boolean ba = true;
+        boolean bb = false;
 
         // Арифметические операторы
         System.out.println("a + b = " + (a + b));
@@ -28,5 +30,10 @@ public class Test {
         System.out.println("a < b = " + (a < b) );
         System.out.println("b >= a = " + (b >= a) );
         System.out.println("b <= a = " + (b <= a) );
+
+        // Логические операторы
+        System.out.println("a && b = " + (ba&&bb));
+        System.out.println("a || b = " + (ba||bb) );
+        System.out.println("!(a && b) = " + !(ba && bb));
     }
 }

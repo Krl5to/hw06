@@ -1,5 +1,7 @@
 package guru.qa;
 
+import static java.lang.Integer.*;
+
 public class Test {
 
     public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class Test {
         boolean bb = false;
         int e = 10;
         int f;
-        String name = "Игорь";
+        String name = "Олег";
 
         // Арифметические операторы
         System.out.println("a + b = " + (a + b));
@@ -63,5 +65,19 @@ public class Test {
         // Следующее вернётся верно, поскольку тип String
         boolean result = name instanceof String;
         System.out.println( result );
+
+        // переполнение
+        int maxValue = MAX_VALUE;
+        System.out.println("maxValue + 1 : " + (maxValue + 1));
+
+        // 2) попробовать вычисления комбинаций типов данных (int и double)
+        int intValue = 5;
+        double doubleValue = 5.01;
+        int intValue1 = 10;
+        double doubleValue1 = 10.00;
+
+        System.out.println("intValue + doubleValue : " + (intValue + doubleValue));
+        System.out.println("intValue * doubleValue : " + (intValue * doubleValue));
+        System.out.println("intValue1 == doubleValue1 : " + (intValue1 == doubleValue1));
     }
 }

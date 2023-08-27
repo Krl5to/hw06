@@ -9,6 +9,9 @@ public class Test {
         int d = 50;
         boolean ba = true;
         boolean bb = false;
+        int e = 10;
+        int f;
+        String name = "Игорь";
 
         // Арифметические операторы
         System.out.println("a + b = " + (a + b));
@@ -49,5 +52,16 @@ public class Test {
         System.out.println("c = c / a = " + c );
         c = c % a; // c %= a ;
         System.out.println("c = c % a = " + c );
+
+        // Тернарный оператор
+        f = (e == 1) ? 20 : 30;
+        System.out.println( "Значение b: " +  f );
+        f = (e == 10) ? 20 : 30;
+        System.out.println( "Значение b: " + f );
+
+        // Оператор instanceof
+        // Следующее вернётся верно, поскольку тип String
+        boolean result = name instanceof String;
+        System.out.println( result );
     }
 }

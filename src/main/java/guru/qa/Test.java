@@ -62,7 +62,7 @@ public class Test {
         System.out.println( "Значение b: " + f );
 
         // Оператор instanceof
-        // Следующее вернётся верно, поскольку тип String
+        // Вернётся верно, поскольку тип String
         boolean result = name instanceof String;
         System.out.println( result );
 
